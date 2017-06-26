@@ -74,7 +74,7 @@ def main():
                 plt.yticks(np.array([]))
                 plt.tight_layout()
             fig.suptitle('Filters of layer {} (# Ascent Epoch {} )'.format(name_ls[cnt], it*RECORD_FREQ))
-            fig.savefig("Filter"+str(i)+"Epoch"+str(it)+".png" ,format = 'png')
+            fig.savefig("./hack_filter/Filter"+str(i)+"Epoch"+str(it)+".png" ,format = 'png')
 
 
 if __name__ == '__main__':
